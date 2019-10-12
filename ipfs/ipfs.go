@@ -12,7 +12,7 @@ import (
 
 // This is the default URL for the local IPFS daemon
 // Can set other path using the SetPath function
-var ipfsPath = "localhost:50013333"
+var ipfsPath = "localhost:5001"
 
 func getShell(url string) *shell.Shell {
 	sh := shell.NewShell(url)
